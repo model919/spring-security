@@ -109,6 +109,9 @@ public abstract class AbstractAclProvider implements AfterInvocationProvider {
     }
 
     public boolean supports(ConfigAttribute attribute) {
+		
+		System.out.println("-----------------------git test 1");
+		
         return processConfigAttribute.equals(attribute.getAttribute());
     }
 
